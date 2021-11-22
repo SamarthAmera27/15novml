@@ -39,7 +39,31 @@ for i in numbers:
 color_list_1 = set(["White", "Black", "Red"]) 
 color_list_2 = set(["Red", "Green"])
 print(color_list_1-color_list_2)
+#Q.8
 
+string = input('Enter a string')
+
+alphabet='abcdefghijklmnopqrstuvwxyz'
+
+string= string.lower()
+
+flag=0
+
+for i in alphabet:
+
+    if i not in string:
+
+        flag=1
+
+        break
+
+if flag==1:
+
+    print('False')
+
+else:
+
+    print("True")
 #Q.9
 n=eval(input('enter the number'))
 print(n+n+n*10+n+n*10+n*100)
