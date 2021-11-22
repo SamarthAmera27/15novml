@@ -9,8 +9,10 @@ a%=3
 print(a)
 print(True*False)
 print(True&False)
-print(((6>3) and (7<4) or (18==3)) and (9>3))
-print(True is False)
+print(((6>3) and (7<4) or (18==3)) and (9>3))
+
+print(True is Fale)
+
 #print(False in False)
 print(((True == False) or (False > True)) and (False <= True))
 #Q.3
@@ -85,8 +87,8 @@ for i in s:
         l=l+1
     if i.isdigit():
         d=d+1
-print("LETTERS ",l)
-print("DIGITS ",d)
+print(l "LETTERS ",)
+print(d."DIGITS ",)
 
 
 #14
