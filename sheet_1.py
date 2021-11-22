@@ -87,8 +87,8 @@ for i in s:
         l=l+1
     if i.isdigit():
         d=d+1
-print(l "LETTERS ",)
-print(d."DIGITS ",)
+print(l,"LETTERS ")
+print(d,"DIGITS ")
 
 
 #14
