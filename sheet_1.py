@@ -137,5 +137,15 @@ d1['Subject']=l2
 d1['Ratings']=l5
 print(d1)
 
+#16
 
+up = eval(input("UP "))
+
+down = eval(input("DOWN "))
+
+left = eval(input("LEFT "))
+
+right = eval(input("RIGHT "))
+
+print(int((((up-down)**2)+((left-right)**2))**0.5))
 
